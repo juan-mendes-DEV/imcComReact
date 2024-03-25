@@ -1,0 +1,28 @@
+.container{
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    /* border: 1px solid black; */
+}
+.container h1{
+    font-size: 20px;
+}
+.input{
+    width: 40%;
+    margin: 10px;
+    border: none;
+    border-bottom: 2px solid #253C59;
+    text-align: center;
+    background-color: #99B4BF;
+    padding: 6px;
+}
+.input:focus{
+    outline: none;
+}
+.input:hover{
+    border-bottom: 2px solid white;
+}
